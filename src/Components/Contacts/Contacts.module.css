@@ -1,4 +1,9 @@
 .contacts {
-    height: 400px;
     background-color: fuchsia;
+}
+.container {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
 }
