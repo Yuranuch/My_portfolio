@@ -1,4 +1,13 @@
 .footer{
-    height: 100px;
+
     background-color: gray;
+}
+.container {
+    height: 100px;
+    display: flex;
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid;
 }

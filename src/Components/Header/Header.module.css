@@ -1,4 +1,11 @@
 .header {
+    background-color: grey;
+}
+.container {
+    display: flex;
     height: 70px;
-    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid;
 }
