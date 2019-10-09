@@ -11,7 +11,7 @@ function MainContainer() {
                     <div>I'm FrontEnd Developer</div>
                 </div>
                 <div className={styles.photo}>
-                    <img src="" alt="" />
+                    <img src="" alt=""/>
                 </div>
             </div>
         </div>
