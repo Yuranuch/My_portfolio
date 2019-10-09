@@ -6,9 +6,9 @@ function MainContainer() {
         <div className={styles.mainContainer}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
-                    <span>Hello</span>
-                    <span>My name is Tsikhanovich Yury</span>
-                    <span>I'm FrontEnd Developer</span>
+                    <div>Hello</div>
+                    <div>My name is Tsikhanovich Yury</div>
+                    <div>I'm FrontEnd Developer</div>
                 </div>
                 <div className={styles.photo}>
                     <img src="" alt="" />
