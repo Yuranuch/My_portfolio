@@ -4,10 +4,10 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: 80px;
+
 }
 .navItem a {
-    font-weight: 600;
+    font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 16px;
