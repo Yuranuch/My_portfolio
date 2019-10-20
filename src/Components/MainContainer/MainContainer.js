@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './MainContainer.module.css'
+import photo from "./../../assets/images/014.jpg"
 
 function MainContainer() {
     return (
@@ -11,7 +12,7 @@ function MainContainer() {
                     <div>I'm FrontEnd Developer</div>
                 </div>
                 <div className={styles.photo}>
-                    <img src="" alt=""/>
+                    <img src={photo} alt=""/>
                 </div>
             </div>
         </div>

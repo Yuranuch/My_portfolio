@@ -7,3 +7,16 @@
     margin: 0 auto;
     border: 1px solid;
 }
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title {
+    background-color: skyblue;
+    font-size: 25px;
+    text-align: center;
+    color: #282c34;
+    margin-bottom: 30px;
+}

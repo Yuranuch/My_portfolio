@@ -13,11 +13,12 @@
 }
 
 .greeting {
-
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: blue;
+    max-width: 280px;
+}
+.photo img {
+    width: 100%;
+
 }

@@ -1,0 +1,16 @@
+.contactsForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactsForm input{
+    width: 100%;
+}
+.contactsForm textarea{
+    width: 100%;
+}
+.sendButton {
+    align-items: center;
+}
