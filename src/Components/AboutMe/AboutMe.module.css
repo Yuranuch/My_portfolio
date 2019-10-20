@@ -1,5 +1,6 @@
 .aboutMe {
     background-color: paleturquoise;
+    display: none;
 }
 .container {
     height: 200px;

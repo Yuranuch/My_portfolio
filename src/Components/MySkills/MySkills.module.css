@@ -1,9 +1,10 @@
 .mySkills {
-    background-color: silver;
+    background-color: rebeccapurple;
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 80vh;
+    padding-top: 50px;
     width: 80%;
     margin: 0 auto;
 
@@ -13,12 +14,6 @@
     justify-content: space-around;
     align-items: baseline;
 
-}
-.title {
-    font-size: 25px;
-    text-align: center;
-    color: #282c34;
-    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 900px) {
