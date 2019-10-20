@@ -1,6 +1,36 @@
+.navItem {
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80px;
+}
 .navItem a {
     color: white;
     font-size: 16px;
     font-weight: bolder;
     text-decoration: none;
+    display: block;
+
+}
+.navItem a:hover {
+    color: coral;
+}
+
+@media screen and (max-width: 580px){
+    .navItem a{
+        font-size: 12px;
+    }
+    .navItem {
+        min-width: 60px;
+    }
+}
+@media screen and (max-width: 420px){
+    .navItem a{
+        font-size: 16px;
+    }
+    .navItem {
+        min-width: 90px;
+    }
 }

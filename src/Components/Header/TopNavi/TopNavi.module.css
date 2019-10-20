@@ -1,6 +1,13 @@
 .headerNavi {
     display: flex;
     justify-content: space-around ;
-    height: 30px;
-    width: 100%
+    width: 100%;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 420px){
+    .headerNavi {
+       flex-direction: column;
+        align-items: center;
+    }
 }

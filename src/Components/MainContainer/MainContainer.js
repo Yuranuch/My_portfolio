@@ -8,7 +8,7 @@ function MainContainer() {
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <div>Hello</div>
-                    <div>My name is Tsikhanovich Yury</div>
+                    <div className={styles.fullName}>My name is Tsikhanovich Yury</div>
                     <div>I'm FrontEnd Developer</div>
                 </div>
                 <div className={styles.photo}>
