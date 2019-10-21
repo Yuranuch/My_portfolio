@@ -8,8 +8,11 @@ function MyWorkItem(props) {
                 <a href="#" className={styles.viewButton}>Смотреть</a>
                 <img src={props.src}/>
             </div>
+
             <div className={styles.exampleInfo}>
+                <div className={styles.title}>{props.title}</div>
                 <span>{props.info}</span>
+                <span>{props.time}</span>
             </div>
 
         </div>

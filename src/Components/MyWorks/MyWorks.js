@@ -2,28 +2,41 @@ import React from 'react';
 import styles from './MyWorks.module.css'
 import MyWorkItem from "./MyWorkItem/MyWorkItem";
 import Title from "../../reuseComponents/Title/Title";
+import project_1 from "./../../assets/images/project_1.jpg"
+
 
 function MyWorks() {
+
+
+
     return (
         <div className={styles.myWorks}>
             <div className={styles.container}>
                 <Title title="My Works"/>
                 <div className={styles.flexContainer}>
                     <MyWorkItem
-                        src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"
-                        info="opevpoepor o poero poe oovreo vpemovmero mer merm me pmr eprmevp emp mvpem poem poem pomvep merpoom erpoom vpoem povem"
+                        src={project_1}
+                        title="Kinopoisk"
+                        info="During creation used technologies such as React, Redux, routing, react-redux, redux-forms. Used axios to get requests"
+                        time="Creating a project took 3 days"
                     />
                     <MyWorkItem
-                        src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"
-                        info="opevpoe oovreo vpemovmero mer merm me pmr eprmevp emp mvpem poem poem pomvep merpoom erpoom em ewfwefewf"
+                        src={project_1}
+                        title="Weather"
+                        info="Used technologies such as React, Redux, functional components. Used axios to get requests"
+                        time="Creating a project took 1 day"
                     />
                     <MyWorkItem
-                        src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"
-                        info="opevpoe oovreo vpemovmero mer merm me pmr eprmevp emp mvpem poem poem pomvep merpoom erpoom em ewfwefewf"
+                        src={project_1}
+                        title="Todo List"
+                        info="This is my biggest project, I apply all my knowledge about React on it. During creation used technologies such as React, Redux, redux-thunk, redux forms. Used axios to get, post, put, delete requests"
+                        time="The project is still in progress"
                     />
                     <MyWorkItem
-                        src="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"
-                        info="opevpoe oovreo vpemovmero mer merm me pmr eprmevp emp mvpem poem poem pomvep merpoom erpoom em ewfwefewf"
+                        src={project_1}
+                        title="Social-Network"
+                        info="This is my test project that I started in React courses. When I finish, it will be a simple social network to chat with my friends. During creation used technologies such as React, Redux, routing, react-redux, redux-forms. Used axios to get, post, put, delete requests"
+                        time="The project is still in progress"
                     />
 
                 </div>

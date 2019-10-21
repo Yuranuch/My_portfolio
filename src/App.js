@@ -7,8 +7,11 @@ import MyWorks from "./Components/MyWorks/MyWorks";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contacts/Contacts";
+import styled from 'styled-components';
 
 function App() {
+
+
     return (
         <div className="App">
             <div className="mainWrapper">

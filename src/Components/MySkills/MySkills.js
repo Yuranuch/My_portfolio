@@ -26,7 +26,7 @@ function MySkills(props) {
         <li>Design</li>
     </ul>
     let jsKnowledge =
-        <span> Basic knowlege. Syntax, code structure, data types, conditional statements, array Methods, this, circuit, promises.
+        <span> Basic knowlege. Syntax, code structure, data types, conditional statements, arrow functions, array Methods, this, circuit, promises.
             Every day I try to learn something new and apply on my projects</span>
     return (
         <div className={styles.mySkills}>
@@ -43,7 +43,6 @@ function MySkills(props) {
                                title="Js"
                                info={jsKnowledge}/>
                 </div>
-
             </div>
         </div>
     );
