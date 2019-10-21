@@ -4,13 +4,17 @@
     padding-bottom: -3px;
     margin: 20px;
     box-shadow: 0px 0px 10px 0px #ffffff;
-
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 .example {
     position: relative;
 }
-.example img{
+.exampleImg {
     width: 100%;
+    opacity: 0.7;
+    position: relative;
 
 }
 .exampleInfo {
@@ -25,21 +29,25 @@
     position: absolute;
     width: 90px;
     height: 30px;
-    background-color: white;
+    font-size: 13px;
+    background: rgba(255,255,255, 0.9);
     top: 50%;
     left: 50%;
     margin: -15px 0 0 -45px;
     text-decoration: none;
     border: 1px solid grey;
-    color: grey;
+    color: #3a3a3a;
     display: block;
     line-height: 30px;
     text-align: center;
     z-index: 5;
 }
 .viewButton:hover {
-    background-color: gray;
+    background: rgba(000, 0, 0, 0.8);
     color: white;
+}
+.viewButton:hover .myWorkItem {
+
 }
 .title {
     font-family: 'Montserrat', sans-serif;

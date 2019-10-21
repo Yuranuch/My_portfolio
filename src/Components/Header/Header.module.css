@@ -6,7 +6,7 @@
 }
 .container {
     display: flex;
-    min-height: 70px;
+    min-height: 50px;
     width: 80%;
     margin: 0 auto;
     align-items: center;

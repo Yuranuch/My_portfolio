@@ -1,5 +1,5 @@
 .contacts {
-    background-color: rebeccapurple;
+    background-color: #232323;
 }
 .container {
     height: 400px;
@@ -7,10 +7,25 @@
     margin: 0 auto;
 }
 
-.flexContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.contactsInfo {
+
+}
+.infoItem {
+    display: block;
+    margin-bottom: 10px;
+}
+.infoItem a {
+    color: white;
+}
+.infoItem a:hover {
+    text-decoration: none;
+}
+
+.contactsInfo span {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
 }
 .title {
     font-size: 25px;

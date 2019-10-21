@@ -5,8 +5,8 @@ function MyWorkItem(props) {
     return (
         <div className={styles.myWorkItem}>
             <div className={styles.example}>
-                <a href="#" className={styles.viewButton}>Смотреть</a>
-                <img src={props.src}/>
+                <a href="https://yuranuch.github.io/Kinopoisk/#/" className={styles.viewButton}>View</a>
+                <img className={styles.exampleImg} src={props.src}/>
             </div>
 
             <div className={styles.exampleInfo}>
