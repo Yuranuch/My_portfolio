@@ -16,7 +16,7 @@
 
 }
 .navItem a:hover {
-    color: coral;
+    color: #570f60;
 }
 
 @media screen and (max-width: 580px){
