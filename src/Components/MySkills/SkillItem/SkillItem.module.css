@@ -1,10 +1,16 @@
 .skillItem {
-    width: 180px;
+    width: 250px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
+
+}
+.skillInfo p{
+    text-align: left;
+    font-size: 15px;
+
 }
 
 .imageBlock {
@@ -13,8 +19,7 @@
     transform: rotate(45deg);
     box-shadow: 0px 0px 42px 4px #ffffff;
     background-color: #282c34;
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     display: flex;
     align-items: center;
 }
@@ -32,7 +37,8 @@
 .skillTitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 900px) {

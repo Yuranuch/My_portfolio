@@ -8,7 +8,26 @@ import htmlLogo from "./../../assets/images/HTML&CSS.png"
 
 
 function MySkills(props) {
-
+    let reactKnowledge = <ul>
+        <li>React library</li>
+        <li>Redux state management</li>
+        <li>Functional and class component</li>
+        <li>Routing</li>
+        <li>Redux-form</li>
+        <li>React-Hooks</li>
+        <li>Axios</li>
+    </ul>
+    let cssKnowledge = <ul>
+        <li>CSS 3</li>
+        <li>HTML 5</li>
+        <li>Cross-browser valid code</li>
+        <li>Flex</li>
+        <li>Sass</li>
+        <li>Design</li>
+    </ul>
+    let jsKnowledge =
+        <span> Basic knowlege. Syntax, code structure, data types, conditional statements, array Methods, this, circuit, promises.
+            Every day I try to learn something new and apply on my projects</span>
     return (
         <div className={styles.mySkills}>
             <div className={styles.container}>
@@ -16,13 +35,13 @@ function MySkills(props) {
                 <div className={styles.flexContainer}>
                     <SkillItem name={htmlLogo}
                                title="HTML&CSS"
-                               info="Lorem oiiwvowi Lorem sdlkvds skmre psdkvs lsdlkvds skmre Lorem sdlkvds skmre psdkvs psdkvsv Lorem sdlkvds skmre psdkvs pdspvrei psivdmv pmvpmfv"/>
+                               info={cssKnowledge}/>
+                    <SkillItem name={reactLogo}
+                               title="React&Redux"
+                               info={reactKnowledge}/>
                     <SkillItem name={jsLogo}
                                title="Js"
-                               info="Lorem oiiwvowi lsdlpsivdmv pmvpmfv Lorem Lorem sdlkvds skmre psdkvs sdlkvds skmre psdkvs"/>
-                    <SkillItem name={reactLogo}
-                               title="React"
-                               info="Lorem sdlkvds skmre psdkvsv Lorem Lorem sdlkvds skmre psdkvs sdlkvds skmre psdkvs pdspvrei psivdmv pmvpmfv"/>
+                               info={jsKnowledge}/>
                 </div>
 
             </div>
