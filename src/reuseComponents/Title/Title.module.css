@@ -6,7 +6,7 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .title:before {
     content: "";

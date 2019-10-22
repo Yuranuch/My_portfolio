@@ -1,21 +1,33 @@
 .myWorkItem {
-    max-width: 400px;
-    background: rgba(000, 0, 0, 0.8);
-    padding-bottom: -3px;
-    margin: 20px;
-    box-shadow: 0px 0px 10px 0px #ffffff;
+    max-width: 350px;
+    background: #282c34;
+    padding: 10px;
+    margin: 20px 20px 40px 20px;
+    box-shadow: 0px 0px 30px 4px #ffffff;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
-.example {
+.examplePhoto{
     position: relative;
+    display: block;
+
+}
+.examplePhoto:hover .viewButton {
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    transition: 1s;
+}
+.examplePhoto:hover .exampleImg {
+    filter: blur(3px);
+    transition: 1s;
+
 }
 .exampleImg {
     width: 100%;
-    opacity: 0.7;
-    position: relative;
-
+    opacity: 0.6;
+    filter: blur(0);
+    transition: 1s;
+    overflow: hidden;
 }
 .exampleInfo {
     padding: 7px;
@@ -26,29 +38,25 @@
     font-size: 13px;
 }
 .viewButton {
+    transition: 1s;
     position: absolute;
-    width: 90px;
+    width: 150px;
     height: 30px;
-    font-size: 13px;
-    background: rgba(255,255,255, 0.9);
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    /*background: rgba(255,255,255, 0.9);*/
     top: 50%;
     left: 50%;
-    margin: -15px 0 0 -45px;
+    margin: -15px 0 0 -75px;
     text-decoration: none;
-    border: 1px solid grey;
-    color: #3a3a3a;
+    color: #fff;
     display: block;
     line-height: 30px;
     text-align: center;
     z-index: 5;
 }
-.viewButton:hover {
-    background: rgba(000, 0, 0, 0.8);
-    color: white;
-}
-.viewButton:hover .myWorkItem {
 
-}
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;

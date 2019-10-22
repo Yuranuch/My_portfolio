@@ -54,15 +54,18 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
+.photo img {
+    width: 100%;
+    z-index: 0;
+    transition: 1s;
+    transform: rotate(0);
+}
 .photo {
     max-width: 280px;
     position: relative;
     z-index: 0;
     margin: 0 15px 0 10px;
-}
-.photo img {
-    width: 100%;
-    z-index: 0;
+
 }
 .photo:before {
     content: "";
@@ -73,8 +76,14 @@
     left: 0px;
     border: 7px solid #570f60;
     z-index: -1;
-   transform: rotate(10deg);
+    transform: rotate(10deg);
 }
+.photo:hover img {
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(10deg);
+}
+
 
 @media screen and (max-width: 830px){
     .container {

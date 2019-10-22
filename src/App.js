@@ -7,14 +7,26 @@ import MyWorks from "./Components/MyWorks/MyWorks";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contacts/Contacts";
-import styled from 'styled-components';
+import Particles from "react-particles-js";
+
+const particlesOpt = {
+    particles: {
+        number: {
+            value: 150,
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        }
+
+    }
+}
 
 function App() {
 
-
     return (
         <div className="App">
-            <div className="mainWrapper">
+                {/*<Particles className="particles" params={particlesOpt}/>*/}
                 <Header/>
                 <MainContainer/>
                 <MySkills/>
@@ -22,7 +34,6 @@ function App() {
                 <AboutMe/>
                 <Contacts/>
                 <Footer/>
-            </div>
         </div>
     );
 }

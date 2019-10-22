@@ -3,16 +3,16 @@ import styles from './MyWorks.module.css'
 import MyWorkItem from "./MyWorkItem/MyWorkItem";
 import Title from "../../reuseComponents/Title/Title";
 import project_1 from "./../../assets/images/project_1.jpg"
+import Fade from "react-reveal/Fade"
 
 
 function MyWorks() {
-
-
 
     return (
         <div className={styles.myWorks}>
             <div className={styles.container}>
                 <Title title="My Works"/>
+            <Fade bottom>
                 <div className={styles.flexContainer}>
                     <MyWorkItem
                         src={project_1}
@@ -40,7 +40,11 @@ function MyWorks() {
                     />
 
                 </div>
+            </Fade>
             </div>
+
+
+
         </div>
     );
 }
