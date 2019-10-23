@@ -6,7 +6,7 @@ function MyWorkItem(props) {
         <div className={styles.meWorkItemWrap} >
         <div className={styles.myWorkItem}>
             <div className={styles.example}>
-            <a className={styles.examplePhoto} href="https://yuranuch.github.io/Kinopoisk/#/" >
+            <a className={styles.examplePhoto} href={props.pathTo} >
                 <span className={styles.viewButton}>view project</span>
                 <img className={styles.exampleImg} src={props.src}/>
             </a>

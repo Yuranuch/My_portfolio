@@ -21,24 +21,28 @@ function MyWorks() {
                         title="kinopoisk"
                         info="During creation used technologies such as React, Redux, routing, react-redux, redux-forms. Used axios to get requests"
                         time="Creating a project took 3 days"
+                        pathTo="https://yuranuch.github.io/Kinopoisk/#/"
                     />
                     <MyWorkItem
                         src={project_2}
                         title="weather"
                         info="Used technologies such as React, Redux, functional components. Used axios to get requests"
                         time="Creating a project took 1 day"
+                        pathTo="https://github.com/Yuranuch/Weather"
                     />
                     <MyWorkItem
                         src={project_3}
                         title="Todo List"
                         info="This is my biggest project, I apply all my knowledge about React on it. During creation used technologies such as React, Redux, redux-thunk, redux forms. Used axios to get, post, put, delete requests"
                         time="The project is still in progress"
+                        pathTo="https://github.com/Yuranuch/TodoList-AJAX"
                     />
                     <MyWorkItem
                         src={project_1}
                         title="Social-Network"
                         info="This is my test project that I started in React courses. When I finish, it will be a simple social network to chat with my friends. During creation used technologies such as React, Redux, routing, react-redux, redux-forms. Used axios to get, post, put, delete requests"
                         time="The project is still in progress"
+                        pathTo="https://github.com/Yuranuch/Social-Network"
                     />
 
                 </div>
