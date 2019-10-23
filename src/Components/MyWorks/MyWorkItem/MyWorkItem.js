@@ -3,6 +3,7 @@ import styles from './MyWorkItem.module.css'
 
 function MyWorkItem(props) {
     return (
+        <div className={styles.meWorkItemWrap} >
         <div className={styles.myWorkItem}>
             <div className={styles.example}>
             <a className={styles.examplePhoto} href="https://yuranuch.github.io/Kinopoisk/#/" >
@@ -16,7 +17,7 @@ function MyWorkItem(props) {
                 <span>{props.info}</span>
                 <span>{props.time}</span>
             </div>
-
+        </div>
         </div>
     );
 }

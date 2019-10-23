@@ -1,30 +1,39 @@
-.myWorkItem {
-    max-width: 350px;
-    background: #282c34;
+.meWorkItemWrap {
+    border: 3px solid white;
     padding: 10px;
     margin: 20px 20px 40px 20px;
-    box-shadow: 0px 0px 30px 4px #ffffff;
+    /*transform: rotate(5deg);*/
+}
+.myWorkItem {
+    max-width: 350px;
+    /*background: #171717;*/
+    background: rgba(0,0,0, 0.6);
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+
+    /*transform: rotate(-5deg);*/
 }
 .examplePhoto{
     position: relative;
     display: block;
 
+
 }
 .examplePhoto:hover .viewButton {
+    background: none;
     box-shadow: 0px 0px 10px 0px #ffffff;
     transition: 1s;
 }
 .examplePhoto:hover .exampleImg {
-    filter: blur(3px);
+    filter: blur(1px);
     transition: 1s;
 
 }
 .exampleImg {
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.7;
     filter: blur(0);
     transition: 1s;
     overflow: hidden;
@@ -40,12 +49,13 @@
 .viewButton {
     transition: 1s;
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     width: 150px;
     height: 30px;
     letter-spacing: 2px;
     font-size: 18px;
-    font-weight: bold;
-    /*background: rgba(255,255,255, 0.9);*/
+    background: rgba(0,0,0, 0.6);
     top: 50%;
     left: 50%;
     margin: -15px 0 0 -75px;
@@ -58,10 +68,9 @@
 }
 
 .title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     display: block;
     line-height: 20px;
-    text-align: center;
-    font-size: 18px;
+    font-size: 15px;
+    color: darkgray;
 }

@@ -8,6 +8,12 @@ HTML, body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
 }
+body {
+  background: url("./../src/assets/images/Bricks-Texture-Black-Background.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

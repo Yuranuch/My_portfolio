@@ -13,10 +13,13 @@
     font-size: 16px;
     text-decoration: none;
     display: block;
+    transition: 1s;
 
 }
 .navItem a:hover {
     color: #570f60;
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
 }
 
 @media screen and (max-width: 580px){
