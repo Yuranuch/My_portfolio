@@ -1,5 +1,8 @@
 .footer{
     background: rgba(000, 0, 0, 0.8);
+    text-align: right;
+     color: dimgray;
+    font-size: 13px;
 }
 .container {
     height: 70px;

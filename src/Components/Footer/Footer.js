@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-
+                © Все права защищены )))
             </div>
         </div>
     );
