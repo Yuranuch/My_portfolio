@@ -7,7 +7,7 @@
 .myWorkItem {
     max-width: 350px;
     /*background: #171717;*/
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0,0,0, 0.8);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,7 @@
     padding: 5px;
     display: block;
     font-size: 13px;
+    color: darkgray;
 }
 .viewButton {
     transition: 1s;
