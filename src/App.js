@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Header from "./Components/Header/Header";
 import MainContainer from "./Components/MainContainer/MainContainer";
@@ -7,35 +7,48 @@ import MyWorks from "./Components/MyWorks/MyWorks";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Footer from "./Components/Footer/Footer";
 import Contacts from "./Components/Contacts/Contacts";
-import Particles from "react-particles-js";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import NavItem from "./Components/Header/TopNavi/NavItem/NavItem";
 
-const particlesOpt = {
-    particles: {
-        number: {
-            value: 150,
-            density: {
-                enable: true,
-                value_area: 800
-            }
-        }
 
-    }
-}
+class App extends Component {
 
-function App() {
 
-    return (
-        <div className="App">
-                {/*<Particles className="particles" params={particlesOpt}/>*/}
+
+    render() {
+
+
+        {/*<NavItem section='#Main' name="Main"/>*/}
+        {/*<NavItem section='#MySkills' name="My Skills"/>*/}
+        {/*    <NavItem section='#MyWorks' name="My Works"/>*/}
+        {/*    <NavItem section='#AboutMe' name="About Me"/>*/}
+        {/*    <NavItem section='#Contacts' name="Contacts"/>*/}
+
+        return (
+            <div className="App">
                 <Header/>
-                <MainContainer/>
-                <MySkills/>
-                <MyWorks/>
-                <AboutMe/>
-                <Contacts/>
+
+                <section id='Main'>
+                    <MainContainer/>
+                </section>
+                <section id='MySkills'>
+                    <MySkills/>
+                </section>
+                <section id='MyWorks'>
+                    <MyWorks/>
+                </section>
+
+                <section id='AboutMe'>
+                    <AboutMe/>
+                </section>
+                <section id='Contacts'>
+                    <Contacts/>
+                </section>
+
                 <Footer/>
-        </div>
-    );
+            </div>
+        );
+    }
 }
 
 export default App;

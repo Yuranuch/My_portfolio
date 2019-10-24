@@ -1,6 +1,5 @@
 .footer{
-
-    background-color: midnightblue;
+    background: rgba(000, 0, 0, 0.8);
 }
 .container {
     height: 70px;

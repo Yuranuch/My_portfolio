@@ -2,8 +2,9 @@
     background-color: #171717;
 }
 .container {
-    min-height: 200px;
+    min-height: 90vh;
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
