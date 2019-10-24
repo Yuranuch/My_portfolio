@@ -17,17 +17,19 @@
     color: white;
     margin-bottom: 30px;
 }
+
 .greetHi {
     font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-
 }
+
 .fullName {
     font-size: 35px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
 }
+
 .fullName span {
     font-size: 35px;
     font-weight: 800;
@@ -37,6 +39,7 @@
     display: inline-block;
     z-index: 1;
 }
+
 .fullName span:before {
     content: "";
     width: 340px;
@@ -48,17 +51,20 @@
     right: -10px;
     box-shadow: 0px 0px 22px 2px #e392ed;
 }
+
 .prof {
     font-size: 22px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
+
 .photo img {
     width: 100%;
     z-index: 0;
     transition: 1s;
     transform: rotate(0);
 }
+
 .photo {
     cursor: pointer;
     max-width: 280px;
@@ -66,6 +72,7 @@
     z-index: 0;
     margin: 0 15px 0 10px;
 }
+
 .photo:before {
     content: "";
     position: absolute;
@@ -79,102 +86,122 @@
 }
 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
     .container {
         flex-direction: column;
     }
+
     .greeting {
         margin-bottom: 50px;
     }
+
     .fullName {
         font-size: 30px;
         font-weight: 700;
     }
+
     .photo {
         margin: 0 15px 70px 10px;
     }
+
     .container {
         padding: 40px 0;
     }
 }
+
 @media screen and (max-width: 740px) {
     .fullName {
         font-size: 25px;
     }
+
     .fullName span {
         font-size: 30px;
         min-width: 300px;
     }
+
     .fullName span:before {
         width: 300px;
     }
+
     .prof {
         font-size: 18px;
     }
+
     .photo {
 
         margin: 0 15px 75px 10px;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .fullName {
         font-size: 25px;
     }
+
     .fullName span {
         font-size: 25px;
         min-width: 230px;
     }
+
     .fullName span:before {
         width: 230px;
         height: 8px;
     }
+
     .prof {
         font-size: 16px;
-
     }
 
 
 }
-@media screen and (max-width: 450px){
+
+@media screen and (max-width: 450px) {
     .fullName {
         font-size: 20px;
     }
 }
-@media screen and (max-width: 430px){
+
+@media screen and (max-width: 430px) {
     .container {
         padding: 100px 0;
     }
 }
+
 @media screen and (max-width: 390px) {
     .photo {
         max-width: 250px;
-
     }
+
     .photo:before {
         width: 250px;
         height: 375px;
     }
+
     .container {
         padding: 80px 0;
     }
 }
+
 @media screen and (max-width: 350px) {
     .photo {
         max-width: 220px;
     }
+
     .photo:before {
         width: 220px;
         height: 340px;
         border: 3px solid white;
     }
+
     .fullName {
         font-size: 20px;
     }
+
     .fullName span {
         font-size: 20px;
         min-width: 180px;
     }
+
     .fullName span:before {
         width: 180px;
         height: 8px;
@@ -182,8 +209,6 @@
     }
 
 }
-
-
 
 @media screen and (max-width: 310px){
     .photo {

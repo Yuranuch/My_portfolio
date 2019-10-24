@@ -7,10 +7,10 @@
     margin: 10px;
     color: darkgray;
 }
-.skillInfo p{
+
+.skillInfo p {
     text-align: left;
     font-size: 15px;
-
 }
 
 .imageBlock {
@@ -30,6 +30,7 @@
     margin: 0 auto;
     transform: rotate(-45deg);
 }
+
 .skillInfo {
     text-align: center;
 }

@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './MyWorkItem.module.css'
+import React from "react"
+import styles from "./MyWorkItem.module.css"
 
 function MyWorkItem(props) {
     return (
@@ -11,7 +11,6 @@ function MyWorkItem(props) {
                 <img className={styles.exampleImg} src={props.src}/>
             </a>
             </div>
-
             <div className={styles.exampleInfo}>
                 <div className={styles.title}>{props.title}</div>
                 <span>{props.info}</span>
@@ -19,7 +18,7 @@ function MyWorkItem(props) {
             </div>
         </div>
         </div>
-    );
+    )
 }
 
-export default MyWorkItem;
+export default MyWorkItem

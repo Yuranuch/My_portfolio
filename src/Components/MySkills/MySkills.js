@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from './MySkills.module.css'
-import SkillItem from "./SkillItem/SkillItem";
-import Title from "../../reuseComponents/Title/Title";
+import React from "react"
+import styles from "./MySkills.module.css"
+import SkillItem from "./SkillItem/SkillItem"
+import Title from "../../reuseComponents/Title/Title"
 import reactLogo from "./../../assets/images/react.png"
 import jsLogo from "./../../assets/images/Js.png"
 import htmlLogo from "./../../assets/images/HTML&CSS.png"
@@ -26,17 +26,14 @@ function MySkills(props) {
         <li>Sass</li>
         <li>Design</li>
     </ul>
-    let jsKnowledge =
-        <span> Basic knowlege. Syntax, code structure, data types, conditional statements, arrow functions, array Methods, this, circuit, promises.
+    let jsKnowledge = <span> Basic knowlege. Syntax, code structure, data types, conditional statements, arrow functions, array Methods, this, circuit, promises.
             Every day I try to learn something new and apply on my projects</span>
+
     return (
         <div className={styles.mySkills}>
-
-                <div className={styles.container}>
-
-                        <Title title="My Skills"/>
-
-                    <Fade left>
+            <div className={styles.container}>
+                <Title title="My Skills"/>
+                <Fade left>
                     <div className={styles.flexContainer}>
                         <SkillItem name={htmlLogo}
                                    title="HTML&CSS"
@@ -48,11 +45,11 @@ function MySkills(props) {
                                    title="Js"
                                    info={jsKnowledge}/>
                     </div>
-                    </Fade>
-                </div>
+                </Fade>
+            </div>
 
         </div>
-    );
+    )
 }
 
-export default MySkills;
+export default MySkills

@@ -2,35 +2,33 @@
     border: 3px solid white;
     padding: 10px;
     margin: 20px 20px 40px 20px;
-    /*transform: rotate(5deg);*/
 }
+
 .myWorkItem {
     max-width: 350px;
-    /*background: #171717;*/
-    background: rgba(0,0,0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-
-    /*transform: rotate(-5deg);*/
 }
-.examplePhoto{
+
+.examplePhoto {
     position: relative;
     display: block;
-
-
 }
+
 .examplePhoto:hover .viewButton {
     background: none;
     box-shadow: 0px 0px 10px 0px #ffffff;
     transition: 1s;
 }
+
 .examplePhoto:hover .exampleImg {
     filter: blur(1px);
     transition: 1s;
-
 }
+
 .exampleImg {
     width: 100%;
     opacity: 0.7;
@@ -38,15 +36,18 @@
     transition: 1s;
     overflow: hidden;
 }
+
 .exampleInfo {
     padding: 7px;
 }
+
 .exampleInfo span {
     padding: 5px;
     display: block;
     font-size: 13px;
     color: darkgray;
 }
+
 .viewButton {
     transition: 1s;
     position: absolute;
@@ -56,7 +57,7 @@
     height: 30px;
     letter-spacing: 2px;
     font-size: 18px;
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
     top: 50%;
     left: 50%;
     margin: -15px 0 0 -75px;

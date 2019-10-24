@@ -4,8 +4,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-
 }
+
 .navItem a {
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
@@ -14,26 +14,29 @@
     text-decoration: none;
     display: block;
     transition: 1s;
-
 }
+
 .navItem a:hover {
     color: #570f60;
     transform: scale(1.1, 1.1);
     transition: 0.4s;
 }
 
-@media screen and (max-width: 580px){
-    .navItem a{
+@media screen and (max-width: 580px) {
+    .navItem a {
         font-size: 12px;
     }
+
     .navItem {
         min-width: 60px;
     }
 }
-@media screen and (max-width: 420px){
-    .navItem a{
+
+@media screen and (max-width: 420px) {
+    .navItem a {
         font-size: 16px;
     }
+
     .navItem {
         min-width: 90px;
     }
