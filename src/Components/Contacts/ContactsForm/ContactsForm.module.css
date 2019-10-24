@@ -5,12 +5,15 @@
     justify-content: center;
     align-items: center;
 }
-.contactsForm input{
+
+.contactsForm input {
     width: 100%;
 }
-.contactsForm textarea{
+
+.contactsForm textarea {
     width: 100%;
 }
+
 .sendButton {
     align-items: center;
 }

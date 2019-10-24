@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './AboutMe.module.css'
-import Title from "../../reuseComponents/Title/Title";
+import React from "react"
+import styles from "./AboutMe.module.css"
+import Title from "../../reuseComponents/Title/Title"
 import Fade from "react-reveal/Fade"
 
 function AboutMe() {
@@ -26,7 +26,7 @@ function AboutMe() {
                 </Fade>
             </div>
         </div>
-    );
+    )
 }
 
-export default AboutMe;
+export default AboutMe

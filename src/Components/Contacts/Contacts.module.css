@@ -1,26 +1,27 @@
 .contacts {
     background-color: #232323;
 }
+
 .container {
     height: 400px;
     width: 80%;
     margin: 0 auto;
 }
 
-.contactsInfo {
-
-}
 .infoItem {
     display: block;
     margin-bottom: 10px;
 }
+
 .container {
     height: 80vh;
     padding-top: 50px;
 }
+
 .infoItem a {
     color: white;
 }
+
 .infoItem a:hover {
     text-decoration: none;
 }
@@ -31,6 +32,7 @@
     font-family: 'Montserrat', sans-serif;
     padding-right: 10px;
 }
+
 .title {
     font-size: 25px;
     text-align: center;

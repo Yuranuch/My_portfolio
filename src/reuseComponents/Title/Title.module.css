@@ -9,6 +9,7 @@
     margin-bottom: 40px;
 
 }
+
 .title:before {
     content: "";
     position: absolute;
