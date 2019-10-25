@@ -17,7 +17,7 @@ function AboutMe() {
                         And now I realized that I did not like this work). I want to change my direction of activity and
                         become a professional web developer.</p>
                     <p>From 2013-2016, I worked part-time on freelance, as a site layout specialist.
-                        Almost 8 months ago, I began to study the react and its libraries, I really liked it, reviewed
+                        Almost 8 months ago, I began to study the react and redux, I really liked it, reviewed
                         many videos and read the documentation.
                         I also completed a 5-month react study course.I know English well.</p>
                     <p>And now I think I will be useful to you)</p>
