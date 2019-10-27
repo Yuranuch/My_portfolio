@@ -7,6 +7,7 @@ import project_2 from "./../../assets/images/project_2.jpg"
 import project_3 from "./../../assets/images/project_3.jpg"
 import project_4 from "./../../assets/images/project_4.jpg"
 import project_5 from "./../../assets/images/project_5.jpg"
+import project_6 from "./../../assets/images/project_6.jpg"
 import Fade from "react-reveal/Fade"
 
 
@@ -20,7 +21,7 @@ function MyWorks() {
                         <MyWorkItem
                             src={project_1}
                             title="kinopoisk"
-                            info="During creation used technologies such as React, Redux, routing, react-redux, redux-forms. Used axios to get requests"
+                            info="During creation used technologies such as React, Redux, routing, react-redux, redux-thunk, redux-forms. Used axios to get requests"
                             time="Creating a project took 3 days"
                             pathTo="https://yuranuch.github.io/Kinopoisk/#/"
                         />
@@ -41,7 +42,7 @@ function MyWorks() {
                         <MyWorkItem
                             src={project_4}
                             title="social-network"
-                            info="This is my test project that I started in React courses. When I finish, it will be a simple social network to chat with my friends. During creation used technologies such as React, Redux, routing, react-redux, redux-forms. Used axios to get, post, put, delete requests"
+                            info="This is my test project that I started in React courses. When I finish, it will be a simple social network to chat with my friends. During creation used technologies such as React, Redux, routing, react-redux, redux-thunk, redux-forms. Used axios to get, post, put, delete requests"
                             time="The project is still in progress"
                             pathTo="https://github.com/Yuranuch/Social-Network"
                         />
@@ -51,6 +52,13 @@ function MyWorks() {
                             info="this is one of my first projects, so do not judge strictly). During creation used technologies such as React, local state, class components"
                             time="Creating a project took 2 days"
                             pathTo="https://github.com/Yuranuch/Counter"
+                        />
+                        <MyWorkItem
+                            src={project_6}
+                            title="simple game 'dog-huner'"
+                            info="this is one of my first test. During creation used technologies such as React, Redux"
+                            time="Creating a project took 4 hours"
+                            pathTo="https://github.com/Yuranuch/game-dog"
                         />
                     </div>
                 </Fade>
