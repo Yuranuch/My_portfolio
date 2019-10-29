@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://Yuranuch.github.io/My_portfolio",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
+    "react-anchor-link-smooth-scroll": "latest",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0",
     "react-reveal": "latest",
-    "react-anchor-link-smooth-scroll": "latest"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

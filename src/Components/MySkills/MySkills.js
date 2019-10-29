@@ -16,6 +16,7 @@ function MySkills(props) {
         <li>Routing</li>
         <li>Redux-form</li>
         <li>React-Hooks</li>
+        <li>React-reselect</li>
         <li>Axios</li>
     </ul>
     let cssKnowledge = <ul>

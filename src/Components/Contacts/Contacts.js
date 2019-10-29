@@ -4,7 +4,6 @@ import Title from "../../reuseComponents/Title/Title"
 import Fade from "react-reveal/Fade"
 
 function Contacts() {
-
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
@@ -19,7 +18,10 @@ function Contacts() {
                             <a href="https://github.com/Yuranuch">https://github.com/Yuranuch</a>
                         </div>
                         <div className={styles.infoItem}><span>Free-lancer: </span>
-                            <a href="https://www.fl.ru/users/yuranuch/">www.free-lance.ru/users/Yuranuch</a>
+                            <a href="https://www.fl.ru/users/yuranuch/">free-lance.ru</a>
+                        </div>
+                        <div className={styles.infoItem}><span>VKontakte: </span>
+                            <a href="https://vk.com/id146948054"><span>vk.com</span></a>
                         </div>
                         <div className={styles.infoItem}><span>Location: </span>Belarus, Minsk</div>
                     </div>
