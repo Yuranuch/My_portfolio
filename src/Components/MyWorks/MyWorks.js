@@ -8,6 +8,7 @@ import project_3 from "./../../assets/images/project_3.jpg"
 import project_4 from "./../../assets/images/project_4.jpg"
 import project_5 from "./../../assets/images/project_5.jpg"
 import project_6 from "./../../assets/images/project_6.jpg"
+import project_7 from "./../../assets/images/project_7.jpg"
 import Fade from "react-reveal/Fade"
 
 
@@ -61,7 +62,7 @@ function MyWorks() {
                             pathTo="https://github.com/Yuranuch/game-dog"
                         />
                         <MyWorkItem
-                            src={project_6}
+                            src={project_7}
                             title="News'"
                             info="During creation used technologies such as React, Redux, routing."
                             time="Creating a project took 1 day"
