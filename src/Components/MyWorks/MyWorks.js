@@ -63,8 +63,8 @@ function MyWorks() {
                         />
                         <MyWorkItem
                             src={project_7}
-                            title="News'"
-                            info="During creation used technologies such as React, Redux, routing."
+                            title="news"
+                            info="Fake authorization on the News site. During creation used technologies such as React, Redux, routing."
                             time="Creating a project took 1 day"
                             pathTo="https://github.com/Yuranuch/News_page"
                         />
