@@ -60,6 +60,13 @@ function MyWorks() {
                             time="Creating a project took 4 hours"
                             pathTo="https://github.com/Yuranuch/game-dog"
                         />
+                        <MyWorkItem
+                            src={project_6}
+                            title="News'"
+                            info="During creation used technologies such as React, Redux, routing."
+                            time="Creating a project took 1 day"
+                            pathTo="https://github.com/Yuranuch/News_page"
+                        />
                     </div>
                 </Fade>
             </div>
