@@ -14,6 +14,7 @@ function MySkills(props) {
         <li>Redux state management</li>
         <li>Functional and class component</li>
         <li>Routing</li>
+        <li>React-bootstrap</li>
         <li>Redux-form</li>
         <li>React-Hooks</li>
         <li>React-reselect</li>
