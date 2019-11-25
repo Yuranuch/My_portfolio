@@ -20,11 +20,11 @@ function MyWorks() {
         <div className={styles.myWorks}>
             <div className={styles.container}>
                 <Title title="My Works"/>
-                <Fade bottom>
+                {/*<Fade bottom>*/}
                     <div className={styles.flexContainer}>
                         <MyWorkItem
                             src={project_9}
-                            title="payment_form"
+                            title="payment_form (mobile)"
                             info="During creation used technologies such as React, Formik(for validation and submit), SASS"
                             time="Creating a project took 3 days"
                             pathTo="https://github.com/Yuranuch/payment_form"
@@ -38,7 +38,7 @@ function MyWorks() {
                         />
                         <MyWorkItem
                             src={project_10}
-                            title="events"
+                            title="events (mobile)"
                             info="During creation used technologies such as CSS, HTML, BEM, Jquery."
                             time="Creating a project took 3 days"
                             pathTo="https://github.com/Yuranuch/Events"
@@ -93,7 +93,7 @@ function MyWorks() {
                             pathTo="https://github.com/Yuranuch/react_gallery"
                         />
                     </div>
-                </Fade>
+                {/*</Fade>*/}
             </div>
             
         </div>
