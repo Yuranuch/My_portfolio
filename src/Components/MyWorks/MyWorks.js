@@ -23,18 +23,18 @@ function MyWorks() {
                 {/*<Fade bottom>*/}
                     <div className={styles.flexContainer}>
                         <MyWorkItem
+                            src={project_1}
+                            title="kinopoisk (mobile)"
+                            info="During creation used technologies such as React, Redux, routing, react-redux, redux-thunk, redux-forms. Used axios to get requests"
+                            time="Creating a project took 3 days"
+                            pathTo="https://yuranuch.github.io/Kinopoisk/#/"
+                        />
+                        <MyWorkItem
                             src={project_9}
                             title="payment_form (mobile)"
                             info="During creation used technologies such as React, Formik(for validation and submit), SASS"
                             time="Creating a project took 3 days"
                             pathTo="https://github.com/Yuranuch/payment_form"
-                        />
-                        <MyWorkItem
-                            src={project_1}
-                            title="kinopoisk"
-                            info="During creation used technologies such as React, Redux, routing, react-redux, redux-thunk, redux-forms. Used axios to get requests"
-                            time="Creating a project took 3 days"
-                            pathTo="https://yuranuch.github.io/Kinopoisk/#/"
                         />
                         <MyWorkItem
                             src={project_10}
