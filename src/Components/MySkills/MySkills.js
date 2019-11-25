@@ -13,6 +13,7 @@ function MySkills(props) {
         <li>React library</li>
         <li>Redux state management</li>
         <li>Functional and class component</li>
+        <li>Lifecycle methods</li>
         <li>Routing</li>
         <li>React-bootstrap</li>
         <li>Redux-form</li>
@@ -26,10 +27,22 @@ function MySkills(props) {
         <li>Cross-browser valid code</li>
         <li>Flex</li>
         <li>Sass</li>
+        <li>Jquery</li>
+        <li>BEM</li>
         <li>Design</li>
+        <li>Avocode</li>
+        <li>Figma</li>
+        <li>Photoshop</li>
     </ul>
-    let jsKnowledge = <span> Basic knowlege. Syntax, code structure, data types, conditional statements, arrow functions, array Methods, this, circuit, promises.
-            Every day I try to learn something new and apply on my projects</span>
+    let jsKnowledge = <ul>
+        <li>Syntax</li>
+        <li>Code structure</li>
+        <li>Closures</li>
+        <li>Circuit</li>
+        <li>Promises</li>
+        <li>Prototypes</li>
+        <li>Every day I try to learn something new and apply on my projects</li>
+    </ul>
 
     return (
         <div className={styles.mySkills}>

@@ -9,6 +9,9 @@ import project_4 from "./../../assets/images/project_4.jpg"
 import project_5 from "./../../assets/images/project_5.jpg"
 import project_6 from "./../../assets/images/project_6.jpg"
 import project_7 from "./../../assets/images/project_7.jpg"
+import project_8 from "./../../assets/images/project_8.jpg"
+import project_9 from "./../../assets/images/project_9.jpg"
+import project_10 from "./../../assets/images/project_10.jpg"
 import Fade from "react-reveal/Fade"
 
 
@@ -20,11 +23,25 @@ function MyWorks() {
                 <Fade bottom>
                     <div className={styles.flexContainer}>
                         <MyWorkItem
+                            src={project_9}
+                            title="payment_form"
+                            info="During creation used technologies such as React, Formik(for validation and submit), SASS"
+                            time="Creating a project took 3 days"
+                            pathTo="https://github.com/Yuranuch/payment_form"
+                        />
+                        <MyWorkItem
                             src={project_1}
                             title="kinopoisk"
                             info="During creation used technologies such as React, Redux, routing, react-redux, redux-thunk, redux-forms. Used axios to get requests"
                             time="Creating a project took 3 days"
                             pathTo="https://yuranuch.github.io/Kinopoisk/#/"
+                        />
+                        <MyWorkItem
+                            src={project_10}
+                            title="events"
+                            info="During creation used technologies such as CSS, HTML, BEM, Jquery."
+                            time="Creating a project took 3 days"
+                            pathTo="https://github.com/Yuranuch/Events"
                         />
                         <MyWorkItem
                             src={project_3}
@@ -68,9 +85,17 @@ function MyWorks() {
                             time="Creating a project took 1 day"
                             pathTo="https://github.com/Yuranuch/News_page"
                         />
+                        <MyWorkItem
+                            src={project_8}
+                            title="user reviews and articles"
+                            info="Requests a server to receive articles. During creation used technologies such as React, Redux, routing, react-redux. Used axios to get requests"
+                            time="Creating a project took 1 day"
+                            pathTo="https://github.com/Yuranuch/react_gallery"
+                        />
                     </div>
                 </Fade>
             </div>
+            
         </div>
     )
 }
