@@ -26,6 +26,7 @@ function MySkills(props) {
         <li>HTML 5</li>
         <li>Cross-browser valid code</li>
         <li>Flex</li>
+        <li>Grid</li>
         <li>Sass</li>
         <li>Jquery</li>
         <li>BEM</li>

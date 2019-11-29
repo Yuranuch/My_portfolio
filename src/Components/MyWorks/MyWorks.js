@@ -12,6 +12,7 @@ import project_7 from "./../../assets/images/project_7.jpg"
 import project_8 from "./../../assets/images/project_8.jpg"
 import project_9 from "./../../assets/images/project_9.jpg"
 import project_10 from "./../../assets/images/project_10.jpg"
+import project_11 from "./../../assets/images/project_11.jpg"
 import Fade from "react-reveal/Fade"
 
 
@@ -24,21 +25,28 @@ function MyWorks() {
                     <div className={styles.flexContainer}>
                         <MyWorkItem
                             src={project_1}
-                            title="kinopoisk (mobile)"
+                            title="kinopoisk (+mobile)"
                             info="During creation used technologies such as React, Redux, routing, react-redux, redux-thunk, redux-forms. Used axios to get requests"
                             time="Creating a project took 3 days"
                             pathTo="https://yuranuch.github.io/Kinopoisk/#/"
                         />
                         <MyWorkItem
+                            src={project_11}
+                            title="adv (+mobile)"
+                            info="During creation used technologies such as SASS, Grid, Flex, BEM, Jquery, Js, Figma"
+                            time="Creating a project took 2 days"
+                            pathTo="https://github.com/Yuranuch/adv"
+                        />
+                        <MyWorkItem
                             src={project_9}
-                            title="payment_form (mobile)"
+                            title="payment_form (+mobile)"
                             info="During creation used technologies such as React, Formik(for validation and submit), SASS"
                             time="Creating a project took 3 days"
                             pathTo="https://github.com/Yuranuch/payment_form"
                         />
                         <MyWorkItem
                             src={project_10}
-                            title="events (mobile)"
+                            title="events (+mobile)"
                             info="During creation used technologies such as CSS, HTML, BEM, Jquery."
                             time="Creating a project took 3 days"
                             pathTo="https://github.com/Yuranuch/Events"
